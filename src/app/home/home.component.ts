@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LOCATIONS } from './locations';
+import { ACTIVITIES } from './activities';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  locations = LOCATIONS;
+  activities = ACTIVITIES;
 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.locations);
   }
 
 }
