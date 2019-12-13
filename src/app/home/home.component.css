@@ -58,6 +58,7 @@
 
 .card {
   width: 400px;
+  font-family: "Poppins", sans-serif;
   background-color: #388e3c;
   color: gainsboro;
 }
@@ -68,6 +69,7 @@
 
 .dropdown {
   margin: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer {
