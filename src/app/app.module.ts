@@ -12,12 +12,18 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './navigation/navigation.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { FindPageComponent } from './find-page/find-page.component';
+import { GearPageComponent } from './gear-page/gear-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavigationComponent
+    NavigationComponent,
+    AboutPageComponent,
+    FindPageComponent,
+    GearPageComponent
   ],
   imports: [
     BrowserModule,
